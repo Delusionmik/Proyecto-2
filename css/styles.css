@@ -11027,3 +11027,75 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+/* ESTILOS EXTRAS */
+
+.iframecontenedor {
+  background-color: #212529;
+  position: relative;
+  padding-bottom: 28.125%;
+  height: 0;
+  overflow: hidden;
+  margin: 20px;
+}
+  .iframecontenedor iframe {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      border: 4px solid #e6a756;
+  }
+
+.textofooter {
+    color: #f0f0f0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.formulariocontenedor {
+  background-color: #212529;
+}
+  .formulariobox {
+      display: flex;
+      box-sizing: content-box;
+      flex-direction: row;
+      justify-content: center;
+      padding: 1rem;
+      background-color: #b88645;
+  }
+      .textformu {
+          font-size: 20px;
+          font-weight: bold;
+          text-decoration: underline;
+      }
+      .botoncito {
+          margin: 10px 10px 0px;
+          background-color: #212529;
+          border: 2px solid #f4f1f1;
+          color: #f4f1f1;
+      }
+          .botoncito:hover {
+              background-color: #b88645;
+              border: 2px solid #f4f1f1;
+              color: #f4f1f1;
+          }
+      
+  .textobajo {
+      color: grey;
+      text-align: center;
+      opacity: 0.5;
+  }
+
+.copy {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  font-style: italic;
+  opacity: 0.5;
+}
+/* ESTILOS FORMULARIO */
