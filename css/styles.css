@@ -10826,7 +10826,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/img/bg.jpg");
+  background-image: /*linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65))*/ url("../assets/img/bg.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -11121,5 +11121,10 @@ p {
 .imagenRedes {
     width: 10%;
     height: 10%;
+}
+
+.imgIntro {
+  border: 3px solid #BF1A79;
+  box-shadow: 3px 3px rgba(32,32,32,0.3);
 }
 /* ESTILOS FORMULARIO */
