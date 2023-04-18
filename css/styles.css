@@ -10891,7 +10891,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(160, 35, 180, .7);
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #mainNav .navbar-brand {
@@ -10935,7 +10935,7 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(124, 30, 149, 0.7);
 }
 .cta .cta-inner {
   position: relative;
@@ -10950,7 +10950,7 @@ p {
   bottom: -0.5rem;
   left: -0.5rem;
   right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  border: 0.25rem solid rgba(82, 25, 215, 0.7);
   z-index: -1;
 }
 
@@ -11044,7 +11044,7 @@ p {
       left: 0px;
       width: 100%;
       height: 100%;
-      border: 4px solid #e6a756;
+      border: 4px solid #BF1A79;
   }
 
 .textofooter {
@@ -11056,7 +11056,7 @@ p {
 }
 
 .formulariocontenedor {
-  background-color: #212529;
+  background-color: rgba(191, 125, 246, .7);
 }
   .formulariobox {
       display: flex;
@@ -11064,7 +11064,7 @@ p {
       flex-direction: row;
       justify-content: center;
       padding: 1rem;
-      background-color: #b88645;
+      background-color: rgba(191, 125, 246, .7);
   }
       .textformu {
           font-size: 20px;
@@ -11082,7 +11082,7 @@ p {
               border: 2px solid #f4f1f1;
               color: #f4f1f1;
           }
-      
+
   .textobajo {
       color: grey;
       text-align: center;
@@ -11118,6 +11118,20 @@ p {
   opacity: 0.5;
 }
 
+.divGeneral {
+  background-color: rgb(111, 150, 229, .95);
+  border: 3px solid #BF1A79;
+}
+
+.divGeneral2 {
+  background-color: rgba(249, 143, 246, .95);
+  border: 3px solid #BF1A79
+}
+
+.letraOcura {
+  color: black;
+}
+
 .imagenRedes {
     width: 10%;
     height: 10%;
@@ -11127,4 +11141,15 @@ p {
   border: 3px solid #BF1A79;
   box-shadow: 3px 3px rgba(32,32,32,0.3);
 }
-/* ESTILOS FORMULARIO */
+
+.footer {
+  background-color: rgba(75, 35, 136, .7);
+}
+
+.navBarColor {
+  background-color: rgba(75, 35, 136, .7);
+}
+
+.colorPrimariotexto {
+  color: rgb(98, 8, 122);
+}
