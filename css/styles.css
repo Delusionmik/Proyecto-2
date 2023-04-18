@@ -11153,3 +11153,9 @@ p {
 .colorPrimariotexto {
   color: rgb(98, 8, 122);
 }
+
+.carritoConstruccion {
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 250%;
+}
