@@ -68,12 +68,12 @@
                                         <div class="mb-3">
                                             <label for="name" class="form-label contactpist textformu">Nombre y Apellido:</label>
                                             <input type="text" class="form-control" id="name" name="nombre" placeholder="Tu nombre y Apellido"
-                                                required minlength="5" maxlength="15">
+                                                required minlength="5" maxlength="15" pattern="[A-Za-z ]*">
                                         </div>
                                         <div class="mb-3">
                                             <label for="email" class="form-label contactpist textformu">Correo Electronico:</label>
                                             <input type="email" class="form-control" id="email" name="email"
-                                                placeholder="tucorreo@ejemplo.com" required>
+                                                placeholder="tucorreo@ejemplo.com" required pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$">
                                         </div>
                                         <div class="mb-3">
                                             <label for="cel" class="form-label contactpist textformu">Telefono de contacto:</label>
@@ -83,12 +83,12 @@
                                             <label for="contacttextarea" class="form-label contactpist textformu"> Ayudanos a mejorar:</label>
                                             <div>
                                                 <textarea name="words" id="contacttextarea" cols="40" rows="10"
-                                                    placeholder="Dejanos una opinion sobre nuestros productos..."></textarea>
+                                                    placeholder="Dejanos una opinion sobre nuestros productos..." required></textarea>
                                             </div>
                                         </div>
                                         <figure class="text-center">
                                             <button type="submit" class="btn btn-warning botoncito btn-lg" id="formbutton">Enviar</button>
-                                            <p class="advertencia" id="advertencia"></p>
+                                            <!-- <p class="advertencia" id="advertencia"></p> -->
                                         </figure>
                                     </form>
                                 </div>
