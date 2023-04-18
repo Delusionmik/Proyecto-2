@@ -11089,6 +11089,25 @@ p {
       opacity: 0.5;
   }
 
+  .botoncitoCarro {
+    margin: 7px 7px 0px;
+    background-color: #212529;
+    border: 2px solid #f4f1f1;
+    color: #f4f1f1;
+}
+    .botoncitoCarro:hover {
+        background-color: #b88645;
+        border: 2px solid #f4f1f1;
+        color: #f4f1f1;
+    }
+
+.centradoPadre {
+      text-align: center;
+}
+
+.centradoHijo {
+  margin: 0px auto;
+}
 .copy {
   text-align: center;
   background-color: black;
@@ -11097,5 +11116,10 @@ p {
   padding: 3px;
   font-style: italic;
   opacity: 0.5;
+}
+
+.imagenRedes {
+    width: 10%;
+    height: 10%;
 }
 /* ESTILOS FORMULARIO */
