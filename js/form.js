@@ -38,5 +38,6 @@ form.addEventListener("submit", e=>{
 		parrafo.innerHTML = warnings;
 	} else {
 		parrafo.innerHTML = `Formulario Enviado`;
+		document.getElementById("form").reset();
 	}
 })
