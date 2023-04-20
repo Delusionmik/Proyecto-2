@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Cocina Delirante</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-upper text-primary mb-3 colorPrimariotexto">Una nueva opcion para tus pedidos</span>
-                <span class="site-heading-lower">Cocina delirante</span>
-            </h1>
-        </header>
-        <!-- Navigation-->
-        <nav class="navBarColor navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Cocina Delirante</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">Acerca de Nosotros</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Productos</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="hour.html">Horarios de Atencion</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="carrito.html">Carrito</a></li>
-                    </ul>
-                </div>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Cocina Delirante</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+
+
+
+
+   
+
+</head>
+<body>
+    <header>
+
+        <h1 class="site-heading text-center text-faded d-none d-lg-block">
+            <span class="site-heading-upper text-primary mb-3">Una nueva opcion para tus pedidos</span>
+            <span class="site-heading-lower">Cocina delirante</span>
+        </h1>
+    </header>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Cocina Delirante</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">Acerca de Nosotros</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Productos</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="hour.html">Horarios de Atencion</a></li>
+                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="carrito.html">Carrito</a></li>
+                </ul>
             </div>
-        </nav>
-        <div class="centradoPadre">
-                <h1 class="carritoConstuccion"> Sitio en Construccion </h1>
         </div>
-    </body>
+    </nav>
+
+    <div class="header2-section container">
+        <img class="logo" src="./assets/iconosredes/favicon.ico" alt="">
+        <div>
+            <img onclick="showCart(this)" class="cart" src="assets/img/favicon.ico" alt="">
+            <p class="count-product">0</p>
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+            <h3>Mi carrito</h3>
+            <div class="card-items">
+
+            </div>
+            <h2>Total: $<strong class="price-total">0</strong></h2> 
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="products">
+
+            <div class="carts">
+                <div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 imgIntro" src="assets/img/products-01.jpg" alt="..." />
+                    <p><span>2500</span>$</p>
+                </div>
+                <p class="title"> PIZZAS</p>
+                <a href="" data-id="9" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 imgIntro" src="assets/img/products-03.jpg" alt="..." />
+                    <p><span>1800</span>$</p>
+                </div>
+                <p class="title">HAMBURGUESAS</p>
+                <a href="" data-id="10" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+            <div class="carts">
+                <div>
+                    <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0 imgIntro" src="assets/img/products-02.jpg" alt="..." />
+                    <p><span>150 c/u </span>$</p>
+                </div>
+                <p class="title">EMPANADAS</p>
+                <a href="" data-id="11" class="btn-add-cart">AGREGAR AL CARRITO</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showCart(x) {
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn() {
+            document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+   
+    <script src="js/scripts.js"></script>
+
+
+</body>
 </html>
-    
