@@ -11008,14 +11008,15 @@ p {
   font-size: 0.9rem;
 }
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  border-bottom: 1px solid rgba( 124, 4, 93 , 0.5);
   padding-bottom: 0.25rem;
   margin-bottom: 1rem;
   font-style: italic;
 }
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #7c045d;
+  text-shadow: 0 0 6px #fff;
 }
 @media (min-width: 992px) {
   .list-hours {
