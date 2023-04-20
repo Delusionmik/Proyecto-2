@@ -57,45 +57,42 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded formulariocontenedor">
+                        <div class="cta-inner bg-faded rounded formulariocontenedor">
                             <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">¿Queres saber sobre nuestras promociones?</span>
-                                <span class="section-heading-lower">suscribite</span>
+                                <span class="section-heading-upper text-center">¿Queres saber sobre nuestras
+                                    promociones?</span>
+                                <span class="section-heading-lower text-center negritaSub">suscribite</span>
+                                <hr class="hrcontacto">
                             </h2>
-                            <div class="formulariocontenedor">
-                                <div class="formulariobox">
-                                    <form action="https://formspree.io/f/xrgdyzvb" method="POST" id="formularioOo">
-                                        <div class="mb-3">
-                                            <label for="name" class="form-label contactpist textformu">Nombre y Apellido:</label>
-                                            <input type="text" class="form-control" id="name" name="nombre" placeholder="Tu nombre y Apellido"
-                                                required minlength="5" maxlength="15" pattern="[A-Za-z ]*">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="email" class="form-label contactpist textformu">Correo Electronico:</label>
-                                            <input type="email" class="form-control" id="email" name="email"
-                                                placeholder="tucorreo@ejemplo.com" required pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="cel" class="form-label contactpist textformu">Telefono de contacto:</label>
-                                            <input type="tel" pattern="[0-9]{9}" class="form-control" id="cel" name="number" placeholder="3760000000" required>
-                                        </div>
-                                        <div id="mb-3">
-                                            <label for="contacttextarea" class="form-label contactpist textformu"> Ayudanos a mejorar:</label>
-                                            <div>
-                                                <textarea name="words" id="contacttextarea" cols="40" rows="10"
-                                                    placeholder="Dejanos una opinion sobre nuestros productos..." required></textarea>
-                                            </div>
-                                        </div>
-                                        <figure class="text-center">
-                                            <button type="submit" class="btn btn-warning botoncito btn-lg" id="formbutton">Enviar</button>
-                                            <!-- <p class="advertencia" id="advertencia"></p> -->
-                                        </figure>
-                                    </form>
+                            <form action="https://formspree.io/f/xrgdyzvb" method="POST" id="form">
+                                <div class="form">
+                                    <div class="grupo">
+                                        <input class="imput" type="text" name="" id="name" minlength="5" maxlength="15" pattern="[A-Za-z ]*" required ><span
+                                            class="barra"></span>
+                                        <label for="">Nombre y Apellido</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <input class="imput" type="email" name="" id="email" pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$" required><span
+                                            class="barra"></span>
+                                        <label for="">E-mail</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <input class="imput" type="tel" name="" id="telefono" pattern="[0-9]{9}" required><span
+                                            class="barra"></span>
+                                        <label for="">Telefono</label>
+                                    </div>
+                                    <div class="grupo">
+                                        <textarea class="imput" name="words" id="contacttextarea" cols="20" rows="8" pattern="/^[a-zA-ZÀ-ÿ\s]{1,40}$/" required
+                                        ></textarea><span class="barraTextarea"></span>
+                                        <label class="locked" for="">Dejanos tu opinion...</label>
+                                    </div>
+                                    <button class="botonFormu" type="submit">Suscribirse</button>
+                                    <p class="warnings" id="warnings"></p>
                                 </div>
+                            </form>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <footer class="footer text-faded text-center py-5">
             <div class="row">
@@ -119,7 +116,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- JS formulario-->
-        <!-- <script src="js/form.js"></script> -->
+        <!-- JS formulario
+        <script src="js/form.js"></script> -->
     </body>
 </html>
