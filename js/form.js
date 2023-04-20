@@ -37,7 +37,7 @@ form.addEventListener("submit", e=>{
 	if (entrar) {
 		parrafo.innerHTML = warnings;
 	} else {
-		parrafo.innerHTML = `Formulario Enviado`;
+		swal("Formulario enviado", "Muchas gracias por suscribirte!");
 		document.getElementById("form").reset();
 	}
 })
